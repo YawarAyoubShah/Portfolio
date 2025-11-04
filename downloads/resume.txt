@@ -1,0 +1,45 @@
+Yawar Ayoub Shah
+Web Developer
++91 7051057206 | hafizmohammadyawarshah@gmail.com | Srinagar Jammu & Kashmir | www.linkedin.com/in/hafiz-mohammad-yawar-shah-542420378 | https://github.com/YawarAyoubShah | yawarayoubshah.com
+PROFESSIONAL SUMMARY
+Results-driven and detail-oriented Web Developer with expertise in the full web development life cycle, from conceptualization to deployment. Proficient in modern front-end and back-end technologies, with a proven ability to develop high-performance, responsive, and user-centric web applications. Eager to leverage technical skills and problem-solving abilities to contribute to innovative projects and a collaborative team environment.
+CORE COMPETENCIES & TECHNICAL SKILLS
+
+    Languages: HTML5, CSS3, JavaScript (ES6+), Python, SQL, PHP
+    Frameworks & Libraries: React.js, Node.js, Express.js, Bootstrap, jQuery, Tailwind CSS
+    Databases: MongoDB, MySQL, PostgreSQL
+    Tools & Platforms: Git, GitHub, VS Code, Figma, Webpack, Docker (basic knowledge)
+    Methodologies: Agile, Scrum
+    Soft Skills: Problem-Solving, Team Collaboration, Communication, Adaptability, Attention to Detail
+
+WORK EXPERIENCE
+Web Developer |
+
+    Developed and maintained multiple client websites using HTML, CSS, JavaScript, and React, ensuring cross-browser compatibility and responsive design.
+    Optimized website performance, reducing page load times by 25% through code refactoring and image optimization techniques.
+    Collaborated with UX/UI designers to translate wireframes and mockups into pixel-perfect, interactive user interfaces, resulting in a 20% increase in user engagement.
+    Implemented SEO best practices (meta tags, clean URLs) which increased organic search traffic by 15% within three months.
+    Utilized Git for version control and collaborated effectively in a team environment, participating in regular code reviews to maintain high-quality standards.
+
+Junior Web Developer |
+
+    Assisted in the design and development of dynamic web applications using JavaScript and PHP, enhancing website functionality.
+    Integrated MySQL databases for basic backend tasks, streamlining data processing for small business clients.
+    Debugged and resolved issues using browser developer tools, reducing error rates by 10% and improving site reliability.
+    Created detailed documentation for web applications to assist with future maintenance and new team member onboarding.
+
+PERSONAL PROJECTS
+E-Commerce Platform Redesign | 
+
+    Designed and built a full-stack e-commerce application using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+    Implemented secure user authentication and a functional shopping cart with payment gateway integration.
+
+Real-Time Weather Dashboard | 
+
+    Developed a dynamic weather dashboard using React.js and integrated a third-party weather API for real-time data display.
+    Ensured a responsive design, delivering an optimal user experience across various devices.
+
+EDUCATION & CERTIFICATIONS
+Full Stack Web Development Certification
+
+    English: Professional Working Proficiency
