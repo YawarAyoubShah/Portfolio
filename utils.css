@@ -1,0 +1,26 @@
+.btn {
+    margin: 90px 180px;
+    padding: 17px 32px;
+    border-radius: 1000px;
+    border: .5px solid black;
+    color: black;
+    text-shadow: black;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: white;
+    cursor: pointer;
+    a{
+        text-decoration: none;
+        color: var(--text-color);
+    }
+    transition: all .3s ease-in-out;
+}
+.btn:hover{
+    scale: 1.03;
+    transition: all .3s ease-in-out;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(252, 70, 107, 1) 0%, rgba(63, 94, 251, 1) 100%);
+}
+.bac{
+    background-color: rgb(21, 21, 21);
+}

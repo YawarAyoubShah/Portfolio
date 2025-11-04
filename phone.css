@@ -1,0 +1,182 @@
+@media only screen and (max-width: 600px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .stick {
+    position: relative;
+  }
+
+  .middleSide  ul{
+    svg {
+      display: block;
+      position: absolute;
+      fill: var(--secondary-text);
+      z-index: 100;
+      right: 40px;
+      top: 80px;
+      
+    }
+  }
+
+  nav {
+    position: fixed;
+    width: 100vw;
+    margin-left: -18px;
+    border-radius: 0;
+    top: 0;
+
+    a {
+      margin-left: 17vw;
+    }
+    .sidebar{
+      transition: all .4s ease-in-out;
+      left: -100%;
+    }
+    ul {
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background-color: var(--base-color);
+      width: 87vw;
+      height: 100vh;
+      padding: 170px 0 0 0;
+
+      li {
+        padding: 30px 0;
+        font-size: 2.0rem;
+      }
+
+      li:hover {
+        scale: 1;
+      }
+    }
+  }
+
+  .leftWel {
+    p {
+      margin: 0 12px;
+      text-align: center;
+    }
+  }
+
+  .leftAbout {
+    p {
+      margin: 80px 12px;
+      text-align: center;
+    }
+  }
+
+  .rightSide {
+    * {
+      position: fixed;
+      right: 20px;
+      top: 23px;
+    }
+  }
+
+  .leftSide {
+    svg {
+      display: block;
+      position: fixed;
+      margin-top: 2px;
+      fill: var(--secondary-text);
+    }
+  }
+
+  #Welcome {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      position: absolute;
+      left: 24%;
+    }
+
+    button {
+      margin-left: 110px;
+      margin-right: 0;
+    }
+
+    img {
+      margin-left: 20px;
+      margin-right: 0;
+    }
+  }
+
+  .About {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 600px;
+      margin-top: -55px;
+      margin-left: 12px;
+    }
+
+    p {
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 100vw;
+      text-align: center;
+    }
+
+    span {
+      position: absolute;
+      left: 23%;
+    }
+  }
+
+  .Services {
+    display: block;
+
+    htmlPart {
+      display: block;
+    }
+  }
+
+  .Contact {
+    width: 90vw;
+    margin-left: 20px;
+
+    h1 {
+      margin-left: 30px;
+      padding-top: 40px;
+    }
+
+    p {
+      margin-left: 30px;
+      margin-bottom: 40px;
+    }
+
+    .inputs {
+      margin-left: 23px;
+    }
+
+    textarea {
+      width: 16.2rem;
+      margin-left: 35px;
+    }
+
+    .terms {
+      margin-left: -4px;
+      margin-top: 22px;
+    }
+
+    button {
+      margin-top: 40px;
+      margin-left: 120px;
+    }
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
