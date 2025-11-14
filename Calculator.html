@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - YawarAyoubShah</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: hsl(0, 0%, 20%);
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #Calculator {
+            display: flex;
+            flex-direction: column;
+            width: 25rem;
+            padding-left: 30px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            /* height: 70vh; */
+            background-color: hsl(0, 0%, 10%);
+            border: 1px solid black;
+            border-radius: 22px;
+        }
+
+        input {
+            transition: all .2s ease-in-out;
+            width: 90.6px;
+            height: 80px;
+            margin: 0;
+            margin-bottom: .3rem;
+            background-color: rgb(255, 255, 29);
+            border: 1px solid black;
+            border-radius: 12px;
+
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        input:hover {
+            background-color: rgb(47, 208, 47);
+        }
+
+        #result {
+            font-family: 'Chakra Petch';
+            background-color: hsl(0, 0%, 0%);
+            border: 1px solid black;
+            border-radius: 12px;
+            color: white;
+            transition: all .2s ease-in-out;
+            width: 21.8rem;
+            height: 50px;
+            padding: 30px 0;
+            margin-bottom: 30px;
+            font-size: 2em;
+            text-align: left;
+            padding-left: 1.5rem;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-left: 20rem;
+
+            a {
+                color: rgb(23, 91, 219);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            body {
+                font-size: 19px;
+                display: block;
+                margin-left: 1.2rem;
+                margin-top: 2rem;
+                overflow-y: hidden;
+            }
+
+            #Calculator {
+                width: 20rem;
+                height: 35rem;
+            }
+
+            input {
+                padding: 0;
+                width: 4.3rem;
+                height: 6rem;
+            }
+
+            #result {
+                width: 16.4rem;
+            }
+
+            h1 {
+                margin-left: 0;
+                margin-top: 12px;
+            }
+        }
+
+        .redcol {
+            color: white;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="Calculator">
+        <input type="text" readonly id="result">
+        <div class="keys">
+
+            <input class="redcol" type="button" onclick=clearDisplay() value="AC">
+            <input onclick=display(1) type="button" value="1">
+            <input onclick=display(2) type="button" value="2">
+            <input onclick=display(3) type="button" value="3">
+            <input class="redcol" type="button" value="+" onclick=display("+")>
+            <input onclick=display(4) type="button" value="4">
+            <input onclick=display(5) type="button" value="5">
+            <input onclick=display(6) type="button" value="6">
+            <input class="redcol" onclick=display('*') type="button" value="*">
+            <input onclick=display(7) type="button" value="7">
+            <input onclick=display(8) type="button" value="8">
+            <input onclick=display(9) type="button" value="9">
+            <input class="redcol" onclick=display('/') type="button" value="/">
+            <input onclick=display(0) type="button" value="0">
+            <input class="redcol" onclick=display('.') type="button" value=".">
+            <input class="redcol" type="button" value="=" onclick=showResult()>
+        </div>
+
+    </div>
+    <h1>Made By <a href="https://yawarayoubshah.netlify.app" target="_blank"
+            rel="noopener noreferrer">YawarAyoubShah</a></h1>
+    <script>
+        let result = document.getElementById('result')
+        const keys = document.querySelector('.keys')
+        function display(value) {
+            result.value += value;
+        }
+        function clearDisplay() {
+            result.value = ""
+        }
+        function showResult() {
+            let a = result.value.trim()
+            let b = eval(a)
+            result.value = b
+        }
+    </script>
+</body>
+
+</html>
